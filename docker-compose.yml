@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:12
+    restart: always
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: servletdata
+      POSTGRES_USER: servletdata
+      POSTGRES_PASSWORD: servletdata
