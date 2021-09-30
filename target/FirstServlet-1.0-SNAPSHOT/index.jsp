@@ -14,5 +14,8 @@
 <br/>
 <br/>
 <a href="delete-servlet"><button target="_self">Delete User</button></a>
+<br/>
+<br/>
+<a href="update-servlet"><button target="_self">Update User</button></a>
 </body>
 </html>

@@ -38,6 +38,7 @@ public class UsersServlet extends HttpServlet {
 
         try{
             db.insertUser(user);
+
         }catch(Exception e){
             System.err.println("Post error: " + e);
         }

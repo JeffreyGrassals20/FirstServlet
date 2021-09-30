@@ -11,6 +11,7 @@
   <title>New User</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
   <style>
     html, body {
       min-height: 100%;
@@ -110,7 +111,7 @@
       <input class="fname" type="name" name="name" placeholder="Name">
       <input type="text" name="lastName" placeholder="Last Name">
       <input type="text" name="c_id" placeholder="User ID">
-      <input type="text" name="phone" placeholder="Phone Number">
+      <input id="phone" type="text" name="phone" placeholder="Phone Number">
     </div>
 
     <button type="submit" href="/">Submit</button>
